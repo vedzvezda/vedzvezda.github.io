@@ -79,7 +79,7 @@ let infoTxt = document.getElementById('infoTxt');
 let nxt = document.getElementById('animate-flicker');
 
 async function getInfo(date) {
-    const response = await fetch(`http://school-of-healing.ru/astrology/api.php?date=${date}`);
+    const response = await fetch(`https://school-of-healing.ru/astrology/api.php?date=${date}`);
     return response.json();
 }
 
